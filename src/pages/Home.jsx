@@ -4,6 +4,7 @@ function Home() {
   return (
     <div>
       <h3>Azizbek</h3>
+      <a href=""></a>
     </div>
   );
 }
