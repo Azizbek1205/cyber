@@ -69,3 +69,80 @@ nav ul a {
   color: #000;
   font-size: 32px;
 }
+
+.black-btn {
+  border-radius: 6px;
+  background: var(--Main-Black, #000);
+  color: var(--Main-White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 56px;
+}
+
+.t-white-btn {
+  border-radius: 6px;
+  border: 1px solid var(--Main-White, #fff);
+  background: transparent;
+  color: var(--Main-White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 56px;
+}
+
+.t-black-btn {
+  border-radius: 6px;
+  border: 1px solid var(--Main-Black, #000000);
+  background: transparent;
+  color: var(--Main-Black, #000000);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 56px;
+}
+
+.home-box {
+  background: linear-gradient(91deg, #211c24 0.64%, #211c24 101%);
+}
+
+.home-top {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-top h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.home-top h1 {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 100;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+  margin-bottom: 24px;
+}
+
+.home-top h1 span {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+}
+
+.home-top p {
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
