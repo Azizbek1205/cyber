@@ -120,6 +120,7 @@ nav ul a {
   font-weight: 600;
   line-height: 32px;
   margin-bottom: 24px;
+  opacity: 0.4;
 }
 
 .home-top h1 {
