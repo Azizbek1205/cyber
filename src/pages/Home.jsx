@@ -4,6 +4,14 @@ import macbook from "../assets/macbook.svg";
 import PS5 from "../assets/PS5.svg";
 import headphones from "../assets/headphones.svg";
 import applevision from "../assets/applevision.svg";
+import Phone from "../assets/Phone.svg";
+import SmartWatch from "../assets/Smart Watch.svg";
+import Camera from "../assets/Camera.svg";
+import Headphone from "../assets/Headphone.svg";
+import Computer from "../assets/Computer.svg";
+import Gaming from "../assets/Gaming.svg";
+import { GoChevronLeft } from "react-icons/go";
+import { GoChevronRight } from "react-icons/go";
 
 function Home() {
   return (
@@ -76,6 +84,45 @@ function Home() {
             </div>
             <div className="home-b-r-right">
               <img src={macbook} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="browse-box">
+        <div className="browse">
+          <div className="browse-top">
+            <div className="browse-left">
+              <h3>Browse By Category</h3>
+            </div>
+            <div className="browse-right">
+              <GoChevronLeft />
+              <GoChevronRight />
+            </div>
+          </div>
+          <div className="browse-bottom">
+            <div className="browse-card">
+              <img src={Phone} alt="" />
+              <h5>Phones</h5>
+            </div>
+            <div className="browse-card">
+              <img src={SmartWatch} alt="" />
+              <h5>Smart Watches</h5>
+            </div>
+            <div className="browse-card">
+              <img src={Camera} alt="" />
+              <h5>Cameras</h5>
+            </div>
+            <div className="browse-card">
+              <img src={Headphone} alt="" />
+              <h5>Headphones</h5>
+            </div>
+            <div className="browse-card">
+              <img src={Computer} alt="" />
+              <h5>Computers</h5>
+            </div>
+            <div className="browse-card">
+              <img src={Gaming} alt="" />
+              <h5>Gaming</h5>
             </div>
           </div>
         </div>

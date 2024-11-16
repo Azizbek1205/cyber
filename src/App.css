@@ -149,8 +149,9 @@ nav ul a {
 }
 
 .home-bottom {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
-  justify-content: space-between;
 }
 
 .home-b-right {
@@ -210,7 +211,6 @@ nav ul a {
 
 .home-b-l-bottom {
   display: flex;
-  justify-content: space-between;
 }
 
 .home-b-l-b-left {
@@ -218,6 +218,7 @@ nav ul a {
   display: flex;
   gap: 48px;
   align-items: center;
+  padding: 0 54px 0 0;
 }
 
 .home-b-l-b-left h2 {
@@ -242,6 +243,7 @@ nav ul a {
   background: #353535;
   display: flex;
   gap: 16px;
+  padding: 0 54px 0 0;
   align-items: center;
 }
 
@@ -252,4 +254,60 @@ nav ul a {
   font-weight: 300;
   line-height: 40px;
   margin-bottom: 8px;
+}
+
+.browse-box {
+  background: #fafafa;
+  padding: 80px 0;
+}
+
+.browse {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.browse-top,
+.browse-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.browse-top {
+  margin-bottom: 32px;
+}
+
+.browse-top h3 {
+  color: var(--Main-Black, #000);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.24px;
+}
+
+.browse-right {
+  display: flex;
+  gap: 16px;
+}
+
+.browse-top svg {
+  font-size: 32px;
+}
+
+.browse-card {
+  min-width: 160px;
+  padding: 24px 0;
+  text-align: center;
+  border-radius: 15px;
+  background: #ededed;
+}
+
+.browse-card img {
+  margin-bottom: 8px;
+}
+
+.browse-card h5 {
+  color: var(--Main-Black, #000);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
