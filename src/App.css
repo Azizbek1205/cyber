@@ -70,6 +70,67 @@ nav ul a {
   font-size: 32px;
 }
 
+footer {
+  background: #000000;
+  padding: 100px 0;
+}
+
+.footer {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.foot-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.foot-left img {
+  margin-bottom: 24px;
+}
+
+.foot-left p {
+  max-width: 335px;
+  color: #cfcfcf;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 170.5%;
+}
+
+.foot-center,
+.foot-right {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.foot-center h4,
+.foot-right h4 {
+  color: var(--Main-White, #fff);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.foot-center p,
+.foot-right p {
+  color: #cfcfcf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.foot-bottom {
+  display: flex;
+  gap: 36px;
+}
+
+.foot-bottom svg {
+  font-size: 16px;
+  color: #fff;
+}
+
 .black-btn {
   border-radius: 6px;
   background: var(--Main-Black, #000);
