@@ -12,8 +12,11 @@ import Computer from "../assets/Computer.svg";
 import Gaming from "../assets/Gaming.svg";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
+import { Link } from "react-router-dom";
+import ArrivalsFetch from "../Fetchs/ArrivalsFetch";
 
 function Home() {
+  const { data } = ArrivalsFetch("https://28e73a81b2da8393.mokky.dev/arrivals");
   return (
     <div>
       <div className="home">
@@ -125,6 +128,24 @@ function Home() {
               <h5>Gaming</h5>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="arrivals">
+        <div className="arrivals-top"></div>
+        <div className="arrivals-bottom">
+          {data &&
+            data.map((e) => {
+              return (
+                <div key={e.id} className="card">
+                  <Link to={`/detail/${e.id}`}>
+                    <img src={e.img} alt="" />
+                    <h4>{e.title}</h4>
+                    <h2>{e.price}</h2>
+                    <button className="black-btn">Buy Now</button>
+                  </Link>
+                </div>
+              );
+            })}
         </div>
       </div>
     </div>

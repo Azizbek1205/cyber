@@ -139,6 +139,7 @@ footer {
   font-weight: 500;
   line-height: 24px;
   padding: 16px 56px;
+  border: none;
 }
 
 .t-white-btn {
@@ -371,4 +372,9 @@ footer {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.arrivals {
+  max-width: 1120px;
+  margin: auto;
 }
