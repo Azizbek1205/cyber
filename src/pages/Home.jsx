@@ -12,6 +12,7 @@ import Computer from "../assets/Computer.svg";
 import Gaming from "../assets/Gaming.svg";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
+import { CiHeart } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import ArrivalsFetch from "../Fetchs/ArrivalsFetch";
 
@@ -131,19 +132,24 @@ function Home() {
         </div>
       </div>
       <div className="arrivals">
-        <div className="arrivals-top"></div>
+        <div className="arrivals-top">
+          <h4>New Arrival</h4>
+          <h4>Bestseller</h4>
+          <h4>Featured Products</h4>
+        </div>
         <div className="arrivals-bottom">
           {data &&
             data.map((e) => {
               return (
-                <div key={e.id} className="card">
-                  <Link to={`/detail/${e.id}`}>
+                <Link to={`/detail/${e.id}`}>
+                  <div key={e.id} className="arrivals-card">
+                    <CiHeart />
                     <img src={e.img} alt="" />
                     <h4>{e.title}</h4>
                     <h2>{e.price}</h2>
                     <button className="black-btn">Buy Now</button>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               );
             })}
         </div>

@@ -377,4 +377,53 @@ footer {
 .arrivals {
   max-width: 1120px;
   margin: auto;
+  padding: 56px 0;
+}
+
+.arrivals-top {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.arrivals-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.arrivals-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  padding: 24px 26px;
+  border-radius: 9px;
+  background: #f6f6f6;
+}
+
+.arrivals-card img {
+  max-width: 160px;
+  margin: auto;
+}
+
+.arrivals-card svg {
+  font-size: 32px;
+  color: #909090c4;
+}
+
+.arrivals-bottom h4 {
+  color: var(--Main-Black, #000);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.arrivals-bottom h2 {
+  color: var(--Main-Black, #000);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
 }
