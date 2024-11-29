@@ -133,7 +133,7 @@ function Home() {
       </div>
       <div className="arrivals">
         <div className="arrivals-top">
-          <h4>New Arrival</h4>
+          <h4 className="arrivals-top-text">New Arrival</h4>
           <h4>Bestseller</h4>
           <h4>Featured Products</h4>
         </div>

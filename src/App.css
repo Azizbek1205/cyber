@@ -386,6 +386,21 @@ footer {
   margin-bottom: 32px;
 }
 
+.arrivals-top-text {
+  color: var(--Main-Black, #000);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration: dashed;
+}
+
+.arrivals-top h4 {
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
 .arrivals-bottom {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
