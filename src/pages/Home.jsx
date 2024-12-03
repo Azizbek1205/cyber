@@ -108,10 +108,12 @@ function Home() {
             </div>
           </div>
           <div className="browse-bottom">
-            <div className="browse-card">
-              <img src={Phone} alt="" />
-              <h5>Phones</h5>
-            </div>
+            <Link to={"/product"}>
+              <div className="browse-card">
+                <img src={Phone} alt="" />
+                <h5>Phones</h5>
+              </div>
+            </Link>
             <div className="browse-card">
               <img src={SmartWatch} alt="" />
               <h5>Smart Watches</h5>
@@ -236,6 +238,13 @@ function Home() {
                 );
               })}
         </div>
+      </div>
+      <div className="sale">
+        <h1>
+          Big Summer <span>Sale</span>
+        </h1>
+        <p>Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+        <button className="t-white-btn">Shop Now</button>
       </div>
     </div>
   );
