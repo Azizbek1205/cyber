@@ -1,52 +1,95 @@
 {
   "arrivals": [
     {
-      "img": "/imgs/IPhone14Pro.svg",
+      "img": "/IPhone14Pro.svg",
       "title": "Apple iPhone 14 Pro Max 128GB Deep Purple",
       "price": "$900",
+      "prefix": "new",
+      "item": "phone",
+      "brand": "IPhone",
       "id": 1
     },
     {
-      "img": "/imgs/Camera.svg",
+      "img": "/Camera.svg",
       "title": "Blackmagic Pocket Cinema Camera 6k",
       "price": "$2535",
+      "prefix": "new",
+      "item": "camera",
       "id": 2
     },
     {
-      "img": "/imgs/AppleWatch.svg",
+      "img": "/AppleWatch.svg",
       "title": "Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
       "price": "$399",
+      "prefix": "new",
+      "discount": "has",
+      "item": "watch",
+      "brand": "IPhone",
       "id": 3
     },
     {
-      "img": "/imgs/AirPods.svg",
+      "img": "/AirPods.svg",
       "title": "AirPods Max Silver Starlight Aluminium ",
       "price": "$549",
+      "prefix": "new",
+      "discount": "has",
+      "item": "headphone",
+      "brand": "IPhone",
       "id": 4
     },
     {
-      "img": "/imgs/GWatch.svg",
+      "img": "/GWatch.svg",
       "title": "Samsung Galaxy Watch6 Classic 47mm Black",
       "price": "$369",
+      "prefix": "new",
+      "item": "watch",
+      "brand": "Samsung",
       "id": 5
     },
     {
-      "img": "/imgs/ZFold.svg",
+      "img": "/ZFold.svg",
       "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black",
       "price": "$1799",
+      "prefix": "new",
+      "item": "phone",
+      "brand": "Samsung",
       "id": 6
     },
     {
-      "img": "/imgs/Buds.svg",
+      "img": "/Buds.svg",
       "title": "Galaxy Buds FE Graphite",
       "price": "$99.99",
+      "prefix": "new",
+      "item": "headphone",
+      "brand": "Samsung",
       "id": 7
     },
     {
-      "img": "/imgs/IPad.svg",
-      "title": " Apple iPad 9 10.2' 64GB Wi-Fi Silver (MK2L3) 2021",
+      "img": "/IPad.svg",
+      "title": "Apple iPad 9 10.2' 64GB Wi-Fi Silver (MK2L3) 2021",
       "price": "$398",
+      "prefix": "new",
+      "item": "pad",
+      "brand": "IPhone",
       "id": 8
+    },
+    {
+      "img": "/Iphone14proGold.svg",
+      "title": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "$398",
+      "discount": "has",
+      "item": "phone",
+      "brand": "IPhone",
+      "id": 9
+    },
+    {
+      "img": "/Iphone14proSilver.svg",
+      "title": "Apple iPhone 14 Pro 1TB Silver (MQ2V3)",
+      "price": "$398",
+      "discount": "has",
+      "item": "phone",
+      "brand": "IPhone",
+      "id": 10
     }
   ]
 }

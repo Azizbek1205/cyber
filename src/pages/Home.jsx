@@ -10,6 +10,10 @@ import Camera from "../assets/Camera.svg";
 import Headphone from "../assets/Headphone.svg";
 import Computer from "../assets/Computer.svg";
 import Gaming from "../assets/Gaming.svg";
+import Items from "../assets/Items.svg";
+import IpadPro from "../assets/IpadPro.svg";
+import SamsungZ from "../assets/SamsungZ.svg";
+import Macbookfull from "../assets/Macbookfull.svg";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { CiHeart } from "react-icons/ci";
@@ -139,19 +143,98 @@ function Home() {
         </div>
         <div className="arrivals-bottom">
           {data &&
-            data.map((e) => {
-              return (
-                <Link to={`/detail/${e.id}`}>
-                  <div key={e.id} className="arrivals-card">
-                    <CiHeart />
-                    <img src={e.img} alt="" />
-                    <h4>{e.title}</h4>
-                    <h2>{e.price}</h2>
-                    <button className="black-btn">Buy Now</button>
-                  </div>
-                </Link>
-              );
-            })}
+            data
+              .filter((e) => e.prefix == "new")
+              .map((item) => {
+                return (
+                  <Link to={`/detail/${item.id}`}>
+                    <div key={item.id} className="arrivals-card">
+                      <CiHeart />
+                      <img src={item.img} alt="" />
+                      <h4>{item.title}</h4>
+                      <h2>{item.price}</h2>
+                      <button className="black-btn">Buy Now</button>
+                    </div>
+                  </Link>
+                );
+              })}
+        </div>
+      </div>
+      <div className="items">
+        <div className="item-1">
+          <div className="item-head">
+            <img src={Items} alt="" />
+          </div>
+          <div className="item-body">
+            <h1>Popular Products</h1>
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <button className="t-black-btn">Shop Now</button>
+          </div>
+        </div>
+        <div className="item-2">
+          <div className="item-head">
+            <img src={IpadPro} alt="" />
+          </div>
+          <div className="item-body">
+            <h1>Ipad Pro</h1>
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <button className="t-black-btn">Shop Now</button>
+          </div>
+        </div>
+        <div className="item-3">
+          <div className="item-head">
+            <img src={SamsungZ} alt="" />
+          </div>
+          <div className="item-body">
+            <h1>Samsung Galaxy </h1>
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <button className="t-black-btn">Shop Now</button>
+          </div>
+        </div>
+        <div className="item-4">
+          <div className="item-head">
+            <img src={Macbookfull} alt="" />
+          </div>
+          <div className="item-body">
+            <h1>Macbook Pro</h1>
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <button className="t-white-btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div className="discount">
+        <div className="discount-top">
+          <h3>Discounts up to -50%</h3>
+        </div>
+        <div className="discount-bottom">
+          {data &&
+            data
+              .filter((e) => e.discount == "has")
+              .map((item) => {
+                return (
+                  <Link to={`/detail/${item.id}`}>
+                    <div key={item.id} className="arrivals-card">
+                      <CiHeart />
+                      <img src={item.img} alt="" />
+                      <h4>{item.title}</h4>
+                      <h2>{item.price}</h2>
+                      <button className="black-btn">Buy Now</button>
+                    </div>
+                  </Link>
+                );
+              })}
         </div>
       </div>
     </div>
