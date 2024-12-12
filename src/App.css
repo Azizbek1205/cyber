@@ -548,3 +548,13 @@ footer {
   line-height: 32px;
   margin-bottom: 36px;
 }
+
+.detail-box {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
