@@ -40,10 +40,10 @@ function Detail() {
                   <div className="white"></div>
                 </div>
                 <div className="memories">
-                  <div className="memory">128GB</div>
-                  <div className="memory">256GB</div>
-                  <div className="memory">512GB</div>
-                  <div className="memory">1TB</div>
+                  <button className="memory">128GB</button>
+                  <button className="memory">256GB</button>
+                  <button className="memory">512GB</button>
+                  <button className="memory">1TB</button>
                 </div>
                 <div className="detail-top-cards">
                   <div className="detail-top-card">
@@ -118,8 +118,8 @@ function Detail() {
                     <CiDeliveryTruck />
                   </div>
                   <div className="detail-b-card-right">
-                    <h5>Free Delivery</h5>
-                    <h6>1-2 day</h6>
+                    <h6>Free Delivery</h6>
+                    <h5>1-2 day</h5>
                   </div>
                 </div>
                 <div className="detail-bottom-card">
@@ -127,8 +127,8 @@ function Detail() {
                     <PiStorefront />
                   </div>
                   <div className="detail-b-card-right">
-                    <h5>In Stock</h5>
-                    <h6>Today</h6>
+                    <h6>In Stock</h6>
+                    <h5>Today</h5>
                   </div>
                 </div>
                 <div className="detail-bottom-card">
@@ -136,14 +136,16 @@ function Detail() {
                     <PiSealCheckLight />
                   </div>
                   <div className="detail-b-card-right">
-                    <h5>Guaranteed</h5>
-                    <h6>1 year</h6>
+                    <h6>Guaranteed</h6>
+                    <h5>1 year</h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         )}
+      </div>
+      <div className="details-box">
         <div className="details">
           <h4>Details</h4>
           <p>
