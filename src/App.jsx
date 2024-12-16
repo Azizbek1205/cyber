@@ -3,11 +3,11 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Product from "./pages/Product";
 import Detail from "./pages/Detail";
 import Add from "./pages/Add";
 import Edit from "./pages/Edit";
 import PageNotFound from "./pages/PageNotFound";
+import ProductPhone from "./pages/ProductPhone";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/product" element={<Product />} />
+            <Route path="/productphone" element={<ProductPhone />} />
             <Route path="/detail/:id" element={<Detail />} />
             <Route path="/add" element={<Add />} />
             <Route path="/edit" element={<Edit />} />

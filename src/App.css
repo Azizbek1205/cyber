@@ -409,6 +409,8 @@ footer {
 }
 
 .arrivals-card {
+  max-width: 268px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -781,7 +783,70 @@ footer {
   flex-direction: column;
 }
 
+.details h4 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.details p {
+  color: #9d9d9d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.screen-bottom,
+.cpu-bottom {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.screen h5,
+.cpu h5 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
 .screen-card {
   display: flex;
   justify-content: space-between;
+  border-bottom: 0.5px solid #cdcdcd;
+  padding-bottom: 8px;
+}
+
+.screen-card h5 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.screen-card p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+}
+
+.details button {
+  max-width: 216px;
+  margin: auto;
+}
+
+.productphone {
+  padding: 56px 0;
+}
+
+.prophone-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 24px;
 }

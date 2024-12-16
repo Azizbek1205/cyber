@@ -161,49 +161,59 @@ function Detail() {
             for many.
           </p>
           <div className="screen">
-            <div className="screen-card">
-              <h5>Screen diagonal</h5>
-              <h5>6.7"</h5>
+            <div className="screen-top">
+              <h5>Screen</h5>
             </div>
-            <div className="screen-card">
-              <h5>The screen resolution</h5>
-              <h5>2796x1290</h5>
-            </div>
-            <div className="screen-card">
-              <h5>The screen refresh rate</h5>
-              <h5>120 Hz</h5>
-            </div>
-            <div className="screen-card">
-              <h5>The pixel density</h5>
-              <h5>460 ppi</h5>
-            </div>
-            <div className="screen-card">
-              <h5>Screen type</h5>
-              <h5>OLED</h5>
-            </div>
-            <div className="screen-card">
-              <h5>Additionally</h5>
-              <h5>
-                Dynamic Island
-                <br />
-                Always-On display
-                <br />
-                HDR display
-                <br />
-                True Tone
-                <br />
-                Wide color (P3)
-              </h5>
+            <div className="screen-bottom">
+              <div className="screen-card">
+                <h5>Screen diagonal</h5>
+                <p>6.7"</p>
+              </div>
+              <div className="screen-card">
+                <h5>The screen resolution</h5>
+                <p>2796x1290</p>
+              </div>
+              <div className="screen-card">
+                <h5>The screen refresh rate</h5>
+                <p>120 Hz</p>
+              </div>
+              <div className="screen-card">
+                <h5>The pixel density</h5>
+                <p>460 ppi</p>
+              </div>
+              <div className="screen-card">
+                <h5>Screen type</h5>
+                <p>OLED</p>
+              </div>
+              <div className="screen-card">
+                <h5>Additionally</h5>
+                <p>
+                  Dynamic Island
+                  <br />
+                  Always-On display
+                  <br />
+                  HDR display
+                  <br />
+                  True Tone
+                  <br />
+                  Wide color (P3)
+                </p>
+              </div>
             </div>
           </div>
           <div className="cpu">
-            <div className="screen-card">
+            <div className="cpu-top">
               <h5>CPU</h5>
-              <h5>A16 Bionic</h5>
             </div>
-            <div className="screen-card">
-              <h5>Number of cores</h5>
-              <h5>6</h5>
+            <div className="cpu-bottom">
+              <div className="screen-card">
+                <h5>CPU</h5>
+                <p>A16 Bionic</p>
+              </div>
+              <div className="screen-card">
+                <h5>Number of cores</h5>
+                <p>6</p>
+              </div>
             </div>
           </div>
           <button className="t-black-btn">View More</button>

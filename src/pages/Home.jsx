@@ -108,7 +108,7 @@ function Home() {
             </div>
           </div>
           <div className="browse-bottom">
-            <Link to={"/product"}>
+            <Link to={"/productphone"}>
               <div className="browse-card">
                 <img src={Phone} alt="" />
                 <h5>Phones</h5>
